@@ -1,14 +1,16 @@
 body{
     /* background-image:url('https://78.media.tumblr.com/10cce6d8b6a31e033ea25b156226c99c/tumblr_npws8frme51taknieo1_500.gif'); */
-    /* background-color:lightgrey; */
+    background-color:lightgrey;
    /* background-size:cover; */
    color:black;
-   font-family:Georgia, 'Times New Roman', Times, serif;
+   font-family:'Courier New', Courier, monospace;
+   font-size:16px;
 }
 table,tr,td{
     border:solid #000000;
-    border-width:.4px;
+    border-width:1px;
     color:black;
+    background-color: #095FD6;
 
 }
 table{
@@ -22,8 +24,9 @@ input{
 .grandparent{
     border:solid black;
     border-width:.2px;
-    background-color:#095FD6;
+    background-color:lightgray;
     height:75vh;
+    padding:1em;
 }
 .docToggler{
     display:flex;
@@ -44,8 +47,8 @@ input{
     border:solid black;
     color:lemonchiffon;
     background-color: #095FD6;
-    padding:12px;
-    margin:8px;
+    padding:9px;
+    margin-bottom: 3vh;
     border-width:.2px;
     display:flex;
     font-size:12px;
@@ -57,34 +60,40 @@ input{
 }
 .subBtn{
     border-radius:12px;
-    border:solid lemonchiffon;
+    /* border:solid lemonchiffon; */
     font-size:12px;
-    margin:.5%;
+    width:12%;
+    /* margin:.5% */
 }
 .nav-item{
-    margin:2px;
+    margin:1px;
     font-size:14px;
     border:solid black;
     border-width:.4px;
 }
 .laneContainer{
     display:flex;
+    margin-top:32px;
     width:100%;
 }
+.lane{
+    height:auto
+}
 .invoiceTitle{
-    
     margin:12px;
 }
 .invoiceTag{
     margin:4px;
 }
 .freeParking{
-    border:solid blue;
+    border:solid lemonchiffon;
+
     border-width:.4px;
-    width:75%;
-    background-color:lightgrey;
+    width:85%;
+    color:lemonchiffon;
+    background-color:#095FD6;
     
-    margin-left:10%;
+    /* margin-left:10%; */
 }
 
 .offcanvas-header{
@@ -93,12 +102,12 @@ input{
     text-align:center;
 }
 .offcanvas-body{
-    background-color:#095FD6;
+    background-color:lightgray;
     color:lemonchiffon;
 }
 .rowCreator{
-    padding:1em;
-    
+    padding:12px;
+    display: flex;
 }
 .buttonHolster{
     padding:8px;
@@ -130,8 +139,8 @@ input{
 }
 .queryContainer{
     justify-content: space-around;
-    background-color: lemonchiffon;
-    margin:1em;
+    background-color: #095FD6;
+    /* margin:1em; */
 }
 .qemail{
     display: flex;
@@ -141,19 +150,19 @@ input{
 }
 .qFlip{
     display: flex;
-    padding:22px;
+    padding:12px;
     margin:2px;
     /* justify-content: space-evenly; */
 
 }
 #qnpt{
-    width:30%;
+    width:20%;
     margin:4px;
     border-radius:12px;
 }
 .qs{
     text-align:center;
     color:black;
-    margin-top:42px;
+    margin-top:12px;
     background-color: lightgrey;
 }

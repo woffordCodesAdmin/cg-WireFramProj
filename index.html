@@ -15,6 +15,7 @@
             <!-- Components:  -->
 
                 <!-- Nav -->
+                
                 <!-- Accounts Payable -->
                 <div class="apContainer">
                     <h5 class="apTitle">Accounts Payable</h5>
@@ -25,9 +26,14 @@
                     <button class="subBtn">Submit</button>
                 </div>
 
+
+
+
             <!-- grndPrnt[popMenu,invoice, screen ] -->
             <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
                
+
+                
                 <li class="nav-item" role="presentation">
                   <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Indexing</button>
                 </li>
@@ -64,17 +70,6 @@
                                 <div class="invoiceTag"><div class="ivt-main">Invoice Date:</div><input type="text"></div>
                                 <div class="invoiceTag"><div class="ivt-main">Currency:</div><input type="text"></div>
                             </div>
-                        </div>
-                        <div class="lane">
-                            <div class="invoiceRow">
-                                <div class="invoiceTag"><div class="ivt-main">Vendor Name</div><input type="text"></div>
-                                <div class="invoiceTag"><div class="ivt-main">Invoice Number</div><input type="text"></div>
-                            </div>
-        
-                            <div class="invoiceRow">
-                                <div class="invoiceTag"><div class="ivt-main">Invoice Number</div><input type="text"></div>
-                                <div class="invoiceTag"><div class="ivt-main">Invoice Number</div><input type="text"></div>
-                            </div>
                             Approvals: 
                             <div class="btn-group">
                                 <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuClickableOutside" data-bs-toggle="dropdown" data-bs-auto-close="inside" aria-expanded="false">
@@ -86,10 +81,121 @@
                                   <li><a class="dropdown-item" href="#">Menu item</a></li>
                                 </ul>
                               </div>
-                            <hr>
+                        </div>
+                        <div class="lane">
+                            <div class="invoiceRow">
+                                <div class="invoiceTag"><div class="ivt-main">Vendor Name</div><input type="text"></div>
+                                <div class="invoiceTag"><div class="ivt-main">Invoice Number</div><input type="text"></div>
+                            </div>
+        
+                            <div class="invoiceRow">
+                                <div class="invoiceTag"><div class="ivt-main">Invoice Number</div><input type="text"></div>
+                                <div class="invoiceTag"><div class="ivt-main">Invoice Number</div><input type="text"></div>
+                            </div>
+                           
+                          
                             Comments: <textarea></textarea>
+                            <div class="popMenuContainer">
+
+
+                                <a style="margin:12px;"class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                                    View Document Details
+                                  </a>
+                        
+                                  <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                                    <div class="offcanvas-header">
+                                      <h5 class="offcanvas-title" id="offcanvasExampleLabel">Document Details</h5>
+                                      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                    </div>
+                                    <div class="offcanvas-body">
+                        
+                        
+                        
+                                    <div class="docToggler">
+                                       <div class="docInputs">
+                                        Source Ref Id :
+                                        </div> 
+                                        <input id="d_input"type="text">
+                                    </div>
+                        
+                                    <div class="docToggler">
+                                        <div class="docInputs">
+                                         Source
+                                         </div> 
+                                         <input id="d_input"type="text">
+                                     </div>
+                        
+                                    <div class="docToggler">
+                                        <div class="docInputs">
+                                         Source Date:
+                                         </div> 
+                                         <input id="d_input"type="text">
+                                     </div>
+                        
+                                    <div class="docToggler">
+                                        <div class="docInputs">
+                                         ASV Ref Id :
+                                         </div> 
+                                         <input id="d_input"type="text">
+                                     </div>
+                        
+                                    <div class="docToggler">
+                                        <div class="docInputs">
+                                         Created :
+                                         </div> 
+                                         <input id="d_input"type="text">
+                                     </div>
+                        
+                                    <div class="docToggler">
+                                        <div class="docInputs">
+                                         Major Status :
+                                         </div> 
+                                         <input id="d_input"type="text">
+                                     </div>
+                        
+                                    <div class="docToggler">
+                                        <div class="docInputs">
+                                         Region:
+                                         </div> 
+                                         <input id="d_input"type="text">
+                                     </div>
+                        
+                                    <div class="docToggler">
+                                        <div class="docInputs">
+                                         County :
+                                         </div> 
+                                         <input id="d_input"type="text">
+                                     </div>
+                        
+                                    <div class="docToggler">
+                                        <div class="docInputs">
+                                         Document Type:
+                                         </div> 
+                                         <input id="d_input"type="text">
+                                     </div>
+                        
+                                    <div class="docToggler">
+                                        <div class="docInputs">
+                                         Company Code:
+                                         </div> 
+                                         <input id="d_input"type="text">
+                                     </div>
+                                        <img src="http://logos-download.com/wp-content/uploads/2016/08/Capgemini_logo.png" alt="" class="capLogo">
+                                      <div class="dropdown mt-3">
+                                        
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                          <li><a class="dropdown-item" href="#">Action</a></li>
+                                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                        </ul>
+                                      </div>
+                                    </div>
+                                  </div>
+                            </div>
                         </div>
 
+                        <!--  -->
+                        
                         <!--  -->
              
 
@@ -115,112 +221,6 @@
 <!-- hamburger-styled menu - PopMenu -->
 <!-- popMenuContainer -->
 <div class="grandparent">
-    <div class="popMenuContainer">
-
-
-        <a style="margin:12px;"class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
-            View Document Details
-          </a>
-
-          <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasExampleLabel">Document Details</h5>
-              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body">
-
-
-
-            <div class="docToggler">
-               <div class="docInputs">
-                Source Ref Id :
-                </div> 
-                <input id="d_input"type="text">
-            </div>
-
-            <div class="docToggler">
-                <div class="docInputs">
-                 Source
-                 </div> 
-                 <input id="d_input"type="text">
-             </div>
-
-            <div class="docToggler">
-                <div class="docInputs">
-                 Source Date:
-                 </div> 
-                 <input id="d_input"type="text">
-             </div>
-
-            <div class="docToggler">
-                <div class="docInputs">
-                 ASV Ref Id :
-                 </div> 
-                 <input id="d_input"type="text">
-             </div>
-
-            <div class="docToggler">
-                <div class="docInputs">
-                 Created :
-                 </div> 
-                 <input id="d_input"type="text">
-             </div>
-
-            <div class="docToggler">
-                <div class="docInputs">
-                 Major Status :
-                 </div> 
-                 <input id="d_input"type="text">
-             </div>
-
-            <div class="docToggler">
-                <div class="docInputs">
-                 Region:
-                 </div> 
-                 <input id="d_input"type="text">
-             </div>
-
-            <div class="docToggler">
-                <div class="docInputs">
-                 County :
-                 </div> 
-                 <input id="d_input"type="text">
-             </div>
-
-            <div class="docToggler">
-                <div class="docInputs">
-                 Document Type:
-                 </div> 
-                 <input id="d_input"type="text">
-             </div>
-
-            <div class="docToggler">
-                <div class="docInputs">
-                 Company Code:
-                 </div> 
-                 <input id="d_input"type="text">
-             </div>
-                <img src="http://logos-download.com/wp-content/uploads/2016/08/Capgemini_logo.png" alt="" class="capLogo">
-              <div class="dropdown mt-3">
-                
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-    </div>
-    <!-- ================================= -->
-    <div class="invoiceContainer"></div>
-    <!-- ================================= -->
-    <div class="screenContainer"></div>
-    <!-- ================================= -->
-
-
-    <!-- ================================= -->
-    <!-- ================================= -->
 
     <!-- Table => 9x2 -->
     <div class="midTable">
