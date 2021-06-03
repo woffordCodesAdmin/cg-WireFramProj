@@ -1,0 +1,159 @@
+body{
+    /* background-image:url('https://78.media.tumblr.com/10cce6d8b6a31e033ea25b156226c99c/tumblr_npws8frme51taknieo1_500.gif'); */
+    /* background-color:lightgrey; */
+   /* background-size:cover; */
+   color:black;
+   font-family:Georgia, 'Times New Roman', Times, serif;
+}
+table,tr,td{
+    border:solid #000000;
+    border-width:.4px;
+    color:black;
+
+}
+table{
+    width:90%;
+    margin:19px;
+    font-size:14px;
+}
+input{
+    text-align:center;
+}
+.grandparent{
+    border:solid black;
+    border-width:.2px;
+    background-color:#095FD6;
+    height:75vh;
+}
+.docToggler{
+    display:flex;
+    margin-top:16px;
+    justify-content: space-evenly;
+}
+.docToggler:hover{
+    color:orange;
+    display:flex;
+    margin-top:16px;
+    justify-content: space-evenly;
+}
+#d_input{
+    border-radius:22px;
+    background-color:lemonchiffon;
+}
+.apContainer{
+    border:solid black;
+    color:lemonchiffon;
+    background-color: #095FD6;
+    padding:12px;
+    margin:8px;
+    border-width:.2px;
+    display:flex;
+    font-size:12px;
+    justify-content: space-evenly
+    ;
+}
+.offcanvas-title{
+    text-align: center;
+}
+.subBtn{
+    border-radius:12px;
+    border:solid lemonchiffon;
+    font-size:12px;
+    margin:.5%;
+}
+.nav-item{
+    margin:2px;
+    font-size:14px;
+    border:solid black;
+    border-width:.4px;
+}
+.laneContainer{
+    display:flex;
+    width:100%;
+}
+.invoiceTitle{
+    
+    margin:12px;
+}
+.invoiceTag{
+    margin:4px;
+}
+.freeParking{
+    border:solid blue;
+    border-width:.4px;
+    width:75%;
+    background-color:lightgrey;
+    
+    margin-left:10%;
+}
+
+.offcanvas-header{
+    background-color:grey;
+    color:lemonchiffon;
+    text-align:center;
+}
+.offcanvas-body{
+    background-color:#095FD6;
+    color:lemonchiffon;
+}
+.rowCreator{
+    padding:1em;
+    
+}
+.buttonHolster{
+    padding:8px;
+    display:flex;
+    justify-content: space-evenly;
+}
+.inputLanding{
+    border:solid black;
+    background-image:url('https://www.underconsideration.com/brandnew/archives/capgemini_logo_signature.gif');
+    background-size:cover;
+    height:42vh;
+    margin:8px;
+    border-width:.2px;
+}
+.addNput{
+    margin:8px;
+    border-radius:50%;
+}
+.addNput:hover{
+    margin:9px;
+    background-color:green;
+    transition:.3s;
+    color:lemonchiffon;
+    border-radius:50%;
+}
+.capLogo{
+    width:90%;
+    margin:22px;
+}
+.queryContainer{
+    justify-content: space-around;
+    background-color: lemonchiffon;
+    margin:1em;
+}
+.qemail{
+    display: flex;
+    padding:22px;
+    margin:2px;
+    /* justify-content: space-evenly; */
+}
+.qFlip{
+    display: flex;
+    padding:22px;
+    margin:2px;
+    /* justify-content: space-evenly; */
+
+}
+#qnpt{
+    width:30%;
+    margin:4px;
+    border-radius:12px;
+}
+.qs{
+    text-align:center;
+    color:black;
+    margin-top:42px;
+    background-color: lightgrey;
+}
