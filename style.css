@@ -3,8 +3,9 @@ body{
     background-color:lightgrey;
    /* background-size:cover; */
    color:black;
-   font-family:'Courier New', Courier, monospace;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
    font-size:16px;
+   height:500vh;
 }
 table,tr,td{
     border:solid #000000;
@@ -25,8 +26,8 @@ input{
     border:solid black;
     border-width:.2px;
     background-color:lightgray;
-    height:75vh;
-    padding:1em;
+    height:auto;
+    padding:2em;
 }
 .docToggler{
     display:flex;
@@ -62,7 +63,7 @@ input{
     border-radius:12px;
     /* border:solid lemonchiffon; */
     font-size:12px;
-    width:12%;
+    width:8%;
     /* margin:.5% */
 }
 .nav-item{
@@ -87,12 +88,10 @@ input{
 }
 .freeParking{
     border:solid lemonchiffon;
-
     border-width:.4px;
     width:85%;
     color:lemonchiffon;
     background-color:#095FD6;
-    
     /* margin-left:10%; */
 }
 
@@ -102,7 +101,7 @@ input{
     text-align:center;
 }
 .offcanvas-body{
-    background-color:lightgray;
+    background-color:#0660D5;
     color:lemonchiffon;
 }
 .rowCreator{
@@ -124,10 +123,14 @@ input{
 }
 .addNput{
     margin:8px;
+    font-size:20px;
+    height:40px;
+    width:40px;
     border-radius:50%;
 }
 .addNput:hover{
     margin:9px;
+    height:40px;
     background-color:green;
     transition:.3s;
     color:lemonchiffon;
@@ -140,7 +143,9 @@ input{
 .queryContainer{
     justify-content: space-around;
     background-color: #095FD6;
-    /* margin:1em; */
+    padding:1em;
+    border-radius:22px;
+    /* margin:3em; */
 }
 .qemail{
     display: flex;
@@ -152,7 +157,6 @@ input{
     display: flex;
     padding:12px;
     margin:2px;
-    /* justify-content: space-evenly; */
 
 }
 #qnpt{
@@ -161,8 +165,31 @@ input{
     border-radius:12px;
 }
 .qs{
-    text-align:center;
-    color:black;
+    text-align:left;
+    color:lemonchiffon;
     margin-top:12px;
-    background-color: lightgrey;
+    font-size:22px;
+
+    /* background-color: lightgrey; */
+}
+.qscreen{
+    width:90%;
+    height:22vh;
+    margin:12px;
+    border:solid lemonchiffon;
+    background-color: lemonchiffon;
+}
+.demo {
+    border:1px solid #C0C0C0;
+    border-collapse:collapse;
+    padding:5px;
+}
+.demo th {
+    border:1px solid #C0C0C0;
+    padding:5px;
+    background:#F0F0F0;
+}
+.demo td {
+    border:1px solid #C0C0C0;
+    padding:5px;
 }
