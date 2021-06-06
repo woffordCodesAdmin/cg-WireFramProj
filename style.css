@@ -193,3 +193,63 @@ input{
     border:1px solid #C0C0C0;
     padding:5px;
 }
+.wholeContainer{
+    border:solid green;
+    display: flex;
+}
+.sliderMenu{
+    width:15%;
+    margin:4px;
+    border:solid blue;
+    border-width:.2px;
+    height:121vh;
+    margin:12px;
+}
+.dashboardField{
+    width:85%;
+    justify-content: space-evenly;
+    border:solid lemonchiffon;
+}
+.navigationBar{
+    margin-top:12vh;
+    background-color: black;
+    color:white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.glass{
+    height:25px;
+}
+.portalShow{
+    border:solid blue;
+    display:flex;
+}
+.windowDisplay{
+    border:solid lemonchiffon;
+    color:black;
+    margin:4px;
+    text-align: center;
+    height:25vh;
+    background-color: lightgray;
+    width:25%;
+
+}
+.chartContainer{
+    /* background-color:#333C3F; */
+    height:42vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.chartCol{
+    border:solid lemonchiffon;
+    margin:3px;
+    text-align:center;
+    width: 22%;
+}
+.topTItle{
+    margin-top:44px;
+}
+.numberBox{
+    font-size:45px;
+
+}
