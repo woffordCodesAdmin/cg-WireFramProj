@@ -194,13 +194,14 @@ input{
     padding:5px;
 }
 .wholeContainer{
-    border:solid green;
+    background-color:#095FD6;
     display: flex;
 }
 .sliderMenu{
     width:15%;
     margin:4px;
-    border:solid blue;
+    background-color:#095FD6;
+    /* border:solid blue; */
     border-width:.2px;
     height:121vh;
     margin:12px;
@@ -211,7 +212,9 @@ input{
     border:solid lemonchiffon;
 }
 .navigationBar{
-    margin-top:12vh;
+    /* margin-top:3vh; */
+    padding-top:20px;
+    height:8vh;
     background-color: black;
     color:white;
     display: flex;
@@ -235,14 +238,18 @@ input{
 
 }
 .chartContainer{
-    /* background-color:#333C3F; */
+    background-color:#333C3F;
     height:42vh;
     display: flex;
+    border-radius:22px;
+    padding-top:12px;
+    margin:1em;
     justify-content: space-evenly;
 }
 .chartCol{
-    border:solid lemonchiffon;
+    /* border:solid lemonchiffon; */
     margin:3px;
+    color:lemonchiffon;
     text-align:center;
     width: 22%;
 }
@@ -252,4 +259,10 @@ input{
 .numberBox{
     font-size:45px;
 
+}
+.asvTop{
+    /* display:flex; */
+}
+.accordion-item{
+    margin-top:6vh;
 }
