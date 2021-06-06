@@ -61,10 +61,8 @@ input{
 }
 .subBtn{
     border-radius:12px;
-    /* border:solid lemonchiffon; */
     font-size:12px;
     width:8%;
-    /* margin:.5% */
 }
 .nav-item{
     margin:1px;
@@ -92,7 +90,6 @@ input{
     width:85%;
     color:lemonchiffon;
     background-color:#095FD6;
-    /* margin-left:10%; */
 }
 
 .offcanvas-header{
@@ -145,13 +142,11 @@ input{
     background-color: #095FD6;
     padding:1em;
     border-radius:22px;
-    /* margin:3em; */
 }
 .qemail{
     display: flex;
     padding:22px;
     margin:2px;
-    /* justify-content: space-evenly; */
 }
 .qFlip{
     display: flex;
@@ -169,8 +164,6 @@ input{
     color:lemonchiffon;
     margin-top:12px;
     font-size:22px;
-
-    /* background-color: lightgrey; */
 }
 .qscreen{
     width:90%;
@@ -200,45 +193,39 @@ input{
 .sliderMenu{
     width:15%;
     margin:4px;
-    background-color:#095FD6;
-    /* border:solid blue; */
+    /* background-color:#095FD6; */
+    border-radius:12px;
+    border:solid lemonchiffon;
+    background-color:lightgray;
     border-width:.2px;
-    height:121vh;
+    height:75vh;
     margin:12px;
 }
 .dashboardField{
     width:85%;
     justify-content: space-evenly;
-    border:solid lemonchiffon;
 }
-.navigationBar{
-    /* margin-top:3vh; */
-    padding-top:20px;
-    height:8vh;
-    background-color: black;
-    color:white;
-    display: flex;
-    justify-content: space-evenly;
-}
-.glass{
-    height:25px;
-}
+
 .portalShow{
-    border:solid blue;
+    /* border:solid lemonchiffon; */
+    border-width: .3px;
     display:flex;
 }
 .windowDisplay{
     border:solid lemonchiffon;
+    border-radius:12px;
     color:black;
-    margin:4px;
+    margin:1em;
     text-align: center;
     height:25vh;
-    background-color: lightgray;
+    border-width:.2px;
+    /* background-color: lightgray; */
+    background-color:lightgray;
     width:25%;
 
 }
 .chartContainer{
-    background-color:#333C3F;
+    background-color:lightgray;
     height:42vh;
     display: flex;
     border-radius:22px;
@@ -249,7 +236,7 @@ input{
 .chartCol{
     /* border:solid lemonchiffon; */
     margin:3px;
-    color:lemonchiffon;
+    color:black;
     text-align:center;
     width: 22%;
 }
@@ -260,9 +247,29 @@ input{
     font-size:45px;
 
 }
-.asvTop{
-    /* display:flex; */
-}
 .accordion-item{
-    margin-top:6vh;
+    margin:6%;
+    border-radius:12px;
+}
+.numberBox:hover{
+    color:green;
+    font-size:55px;
+    transition:.3s;
+}
+.btnBasket{
+    margin-top:60%;
+    margin: 15px;
+}
+.capTain{
+    width:100%;
+}
+.addSumn{
+    margin:2%;
+    font-size:22px;
+    width:33%;
+}
+.organizer{
+    text-align:center;
+    border:solid navy;
+    border-width:.2px;
 }
