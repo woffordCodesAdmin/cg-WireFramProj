@@ -273,3 +273,11 @@ input{
     border:solid navy;
     border-width:.2px;
 }
+.smlogo{
+    height:90px;
+    border:solid lightgray;
+    border-radius:50%;
+    background-color:lightgray;
+    margin-top:72px;
+
+}
